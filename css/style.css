@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #353131;
+}
+#home-body{
+    background: radial-gradient(103.8% 103.8% at 50% 50%, #2562FF 0%, #FF4141 100%), #353131;
+}
+.bg-circles-container{
+    height: 60vh;
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-circle{
+    width: 60vh;
+    border-radius: 10000px;
+    flex-shrink: 0;
+    height: 100%;
+}
+#circle-two{
+    margin-left: -35vh;
+}
+#circle-three{
+    margin-left: -35vh;
+}
+#name-container{
+    position: absolute;
+}
+#name-outline{
+    position: absolute;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    text-align: center;
+    font-size: 110px;
+    font-family: 'Fugaz One', cursive;
+    color: transparent;
+    -webkit-text-stroke: 3px #00FFA3;
+    mix-blend-mode: exclusion;
+    /* mix-blend-mode: soft-light; */
+}
+#name{
+    text-align: center;
+    position: relative;
+    font-size: 110px;
+    color: #00FFA3;
+    font-family: 'Fugaz One', cursive;
+    mix-blend-mode: saturation;
+    /* text-shadow: 10px 10px 0px #ffffff; */
+}
+ 
+#name::before{
+    content: "CLÉMENT RAYER";
+    color: #ffffff;
+    font-size: 108px;
+    margin-left: 5px;
+    text-align: center;
+    mix-blend-mode: normal;
+    position: absolute;
+    z-index: 10;
+}
+#about-border{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(103.8% 103.8% at 50% 50%, #2562FF 0%, #FF4141 100%), #353131;
+}
+#about-background{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: calc(100vw - 100px);
+    height: calc(100vh - 100px);
+    background-color: #353131;
+}
